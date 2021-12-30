@@ -40,7 +40,7 @@ OpenAPI http://localhost:8069/docs
 Install dev packages
 
 ```shell-script
-pipenv isntall -d
+pipenv install -d
 ```
 
 #### Linting
