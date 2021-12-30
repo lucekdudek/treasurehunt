@@ -29,19 +29,27 @@ Run treasurehunt service
 docker-compose up treasurehunt
 ```
 
-### Interacting
+#### Interacting
 
 OpenAPI http://localhost:8069/docs
 
 [Connecting to follow the game events websocket](examples/ws_client.py)
 
-### Linting
+### Setting up dev environment 
+
+Install dev packages
+
+```shell-script
+pipenv isntall -d
+```
+
+#### Linting
 
 ```shell-script
 make lint
 ```
 
-### Running tests
+#### Running tests
 
 ```shell-script
 make test
